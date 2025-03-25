@@ -1,0 +1,96 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 242, 224);
+    margin: auto;
+}
+
+nav > a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #158d4380;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 1px;
+}
+
+nav > a:hover{
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+header{
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #12281b, #1EB357);
+    color: white;
+    padding: 40px 10px 10px 10px;
+}
+
+header > h1{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 25px 10px 5px 10px;
+}
+
+header > p{
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+main{
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0px 78px 0px 78px;
+    padding: 1px 10px 10px 10px;
+}
+
+
+#historiaandroid > article > h1{
+    box-sizing: border-box;
+    font-family: idroid;
+    font-size: 2em;
+    margin-left: 15px;
+    color: #0c4622;
+}
+
+#historiaandroid > article > p > strong{
+    box-sizing: border-box;
+    color: #0c4622;
+}
+
+h2{
+    box-sizing: border-box;
+    font-family: idroid;
+    color: #198d45;
+    background-color: #A0FFC4;
+    margin-left: 15px;
+}
+
+img{
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+p{
+    box-sizing: border-box;
+    text-indent: 40px;
+    text-align: justify; 
+}
+
+main a{
+    box-sizing: border-box;
+    background-color: #A0FFC4;
+    font-weight: bold;
+    color: #12281b;
+    padding: 3px;   
+}
